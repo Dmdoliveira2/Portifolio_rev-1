@@ -51,7 +51,8 @@ function Hero() {
           ver projetos
         </a>
         <a
-          href="#contato"
+          href="/Douglas_Oliveira.pdf"
+          download
           className="border border-white/20 text-ink font-mono text-xs px-5 py-3 rounded"
         >
           baixar cv
