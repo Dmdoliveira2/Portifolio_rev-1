@@ -2,7 +2,7 @@
 
 Site pessoal desenvolvido para apresentar meus projetos e trajetória de transição de carreira: de técnico de mineração (geotecnia) para desenvolvimento front-end.
 
-🔗 **Live:** _adicionar link após o deploy no Vercel_
+🔗 **Live:** [douglas-portfolio-taupe.vercel.app](https://douglas-portfolio-taupe.vercel.app/)
 
 ## Sobre o projeto
 
