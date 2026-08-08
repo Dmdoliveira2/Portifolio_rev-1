@@ -31,32 +31,34 @@ function Header() {
 
 function Hero() {
   return (
-    <section className="relative px-8 pt-16 pb-12 max-w-2xl overflow-hidden animate-fade-in">
+    <section className="relative px-8 pt-16 pb-12 overflow-hidden">
       <ContourLines />
-      <p className="font-mono text-xs text-amber tracking-wide mb-4">
-        // desenvolvedor front-end
-      </p>
-      <h1 className="font-display text-3xl sm:text-4xl font-medium text-ink leading-tight">
-        Douglas Oliveira
-      </h1>
-      <p className="font-display text-lg text-muted mt-3 leading-relaxed">
-        Técnico de campo que constrói ferramentas para o próprio trabalho —
-        agora migrando isso para código.
-      </p>
-      <div className="flex flex-col sm:flex-row gap-3 mt-8">
-        <a
-          href="#projetos"
-          className="bg-amber text-[#412402] font-mono text-xs font-medium px-5 py-3 rounded"
-        >
-          ver projetos
-        </a>
-        <a
-          href="/Douglas_Oliveira.pdf"
-          download
-          className="border border-white/20 text-ink font-mono text-xs px-5 py-3 rounded"
-        >
-          baixar cv
-        </a>
+      <div className="relative max-w-2xl animate-fade-in">
+        <p className="font-mono text-xs text-amber tracking-wide mb-4">
+          // desenvolvedor front-end
+        </p>
+        <h1 className="font-display text-3xl sm:text-4xl font-medium text-ink leading-tight">
+          Douglas Oliveira
+        </h1>
+        <p className="font-display text-base sm:text-lg text-muted mt-3 leading-relaxed">
+          Técnico de campo que constrói ferramentas para o próprio trabalho —
+          agora migrando isso para código.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-3 mt-8">
+          <a
+            href="#projetos"
+            className="bg-amber text-[#412402] font-mono text-xs font-medium px-5 py-3 rounded"
+          >
+            ver projetos
+          </a>
+          <a
+            href="/curriculo-douglas-oliveira.pdf"
+            download
+            className="border border-white/20 text-ink font-mono text-xs px-5 py-3 rounded"
+          >
+            baixar cv
+          </a>
+        </div>
       </div>
     </section>
   );
