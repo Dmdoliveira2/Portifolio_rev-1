@@ -1,17 +1,52 @@
-# React + Vite
+# Portfólio — Douglas Oliveira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site pessoal desenvolvido para apresentar meus projetos e trajetória de transição de carreira: de técnico de mineração (geotecnia) para desenvolvimento front-end.
 
-Currently, two official plugins are available:
+🔗 **Live:** _adicionar link após o deploy no Vercel_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+Identidade visual inspirada em caderno de campo técnico e instrumentação geotécnica — linhas de contorno topográfico, paleta escura com acento âmbar de segurança, e tipografia que mistura display, texto corrido e monoespaçado (referência a leituras de instrumento e coordenadas de campo).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the ESLint configuration
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Portifolio_rev-1
+## Estrutura
+
+```
+src/
+├── components/
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── ContourLines.jsx
+│   └── Projects.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## Rodando localmente
+
+```bash
+git clone https://github.com/Dmdoliveira2/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
+
+O projeto abre em `http://localhost:5173`.
+
+## Seções
+
+- **Hero** — apresentação com linhas de contorno topográfico de fundo
+- **Sobre** — trajetória e stack de tecnologias
+- **Projetos** — destaque para os principais projetos, incluindo o [Relatório Fotográfico de Geotecnia](https://relatorio-diario-gth-cava.vercel.app) e o [Semente do Dia](https://devocional-reflex-es.vercel.app/)
+- **Contato** — email, LinkedIn e GitHub
+
+## Autor
+
+**Douglas Oliveira**
+[LinkedIn](https://www.linkedin.com/in/douglas-oliveira-14bab9326/) · [GitHub](https://github.com/Dmdoliveira2) · [Email](mailto:dmdoliveira2@outlook.com)
