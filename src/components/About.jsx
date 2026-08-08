@@ -12,7 +12,7 @@ function About() {
         <img
           src="/foto-perfil.jpg"
           alt="Douglas Oliveira"
-          className="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover border border-white/10 flex-shrink-0"
+          className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl object-cover border border-white/10 flex-shrink-0"
         />
 
         <div>
